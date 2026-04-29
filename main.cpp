@@ -25,7 +25,7 @@ int main()
 
     display_menu();
     char choice;
-    DataBase obj;
+    DataBase obj; //DataBase object created
 
     do
     {
