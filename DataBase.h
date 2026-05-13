@@ -11,6 +11,8 @@ public:
     void add_user(); //Add user method
     void display_users() const; //Display user method
     void find_user() const; //Find user method
+    void save_to_file(); //Add users to file
+    void load_from_file(); //Load users from file
 
 private:
     vector<User> users; //Vector of User objects
